@@ -2,11 +2,21 @@
 
 **Exploring practical audio processing, music analysis, synchronized lyrics, and interactive web tools through AI-assisted product development.**
 
-**[About the project](#overview)** · **[Explore the tools](#tools--experiments)** · **[Karaoke Pro Editor](#karaoke-generator--pro-editor)** · **[How I work](#my-role--workflow)**
+**[See the interface](#interface-preview)** · **[Explore the tools](#tools--experiments)** · **[Screenshot gallery](#screenshots--demonstrations)** · **[Karaoke Pro Editor](#karaoke-generator--pro-editor)** · **[How I work](#my-role--workflow)**
 
 > **Public portfolio showcase.** This repository presents selected features, design decisions, and testing experience from Beat Lab. The original application source, dependencies, local files, model assets, and infrastructure are **not included** here. This is a development/portfolio project, not a claim of a production-ready hosted service.
 
 ---
+
+## Interface preview
+
+<p align="center">
+  <a href="screenshots/beatlab-home.png" title="View full-size Beat Lab home screenshot">
+    <img src="screenshots/beatlab-home.png" alt="Beat Lab home page displaying the audio tools dashboard" width="780">
+  </a>
+</p>
+
+<p align="center"><em>Original screenshot of the locally running Beat Lab home page. Click to view the complete image.</em></p>
 
 ## Overview
 
@@ -94,11 +104,39 @@ I use AI tools to help implement ideas, but the project work also involves decis
 
 ## Screenshots & demonstrations
 
-Original interface screenshots and short demonstrations will be added after checking that they accurately reflect the project and contain no private files, credentials, personal data, or copyrighted third-party media.
+These **10 original screenshots** come from the Beat Lab interface running locally in a web browser. The homepage is shown above; the gallery below covers nine distinct tool interfaces.
 
-**Suggested gallery:** Audio Tools home · Beat Reconstructor · Hit Analyzer · Genre/Emotion tools · Karaoke stage · Pro Editor timeline.
+**What they demonstrate:** interface design, navigation, available inputs and controls, and the breadth of the tool collection.
 
-There is currently **no public hosted Beat Lab demo linked in this showcase**. Please do not treat this README as a live product.
+**What they do not demonstrate:** end-to-end successful processing, tested audio outputs, a hosted service, or production readiness. Most screenshots show each tool's initial or idle state, before media has been uploaded.
+
+### Audio processing & analysis
+
+| Beat Reconstructor | Hit Analyzer |
+| :---: | :---: |
+| [![Beat Reconstructor interface with audio upload, pitch controls and processing status](screenshots/beat-reconstructor.png)](screenshots/beat-reconstructor.png) | [![Hit Analyzer interface with two audio inputs and comparison options](screenshots/hit-analyzer.png)](screenshots/hit-analyzer.png) |
+| **Emotion Analyzer** | **Global Genre Classifier** |
+| [![Music emotion analyzer interface with audio input and segment results area](screenshots/emotion-analyzer.png)](screenshots/emotion-analyzer.png) | [![Global Genre Classifier interface with artist and title input fields](screenshots/genre-classifier.png)](screenshots/genre-classifier.png) |
+
+### Recording, music practice & interaction
+
+| Voice Trainer | Music Stick Dancer |
+| :---: | :---: |
+| [![Voice Trainer interface with microphone and recording timer controls](screenshots/voice-trainer.png)](screenshots/voice-trainer.png) | [![Music Stick Dancer interface displaying the character stage and customization controls](screenshots/stick-dancer.png)](screenshots/stick-dancer.png) |
+| **Metronome** | |
+| [![Metronome interface displaying BPM, time signature and beat visualization](screenshots/metronome.png)](screenshots/metronome.png) | **Interactive rhythm and timing practice** |
+
+### Audio-reactive visual experiments
+
+| Mandala Visualizer | Pulse Visualizer |
+| :---: | :---: |
+| [![Mandala Visualizer interface with pattern, palette, playback and recording controls](screenshots/mandala-visualizer.png)](screenshots/mandala-visualizer.png) | [![Image Bass Pulse interface with image, audio and synchronization controls](screenshots/pulse-visualizer.png)](screenshots/pulse-visualizer.png) |
+
+*Click any screenshot to see its original, full-resolution version.*
+
+**Karaoke Generator and Pro Editor:** their implementation lives in a separate prototype snapshot and is **not shown in this gallery**. Screenshots can be added later if the separate prototype is run and reviewed.
+
+**Availability:** Beat Lab is currently presented as a locally run development project; this repository does not link to a public hosted demo.
 
 ## What I'm interested in
 
